@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "target": "es6",
+    "lib": ["es2018", "dom", "DOM.Iterable"]
+  },
+  "include": ["src"],
+  "exclude": []
+}

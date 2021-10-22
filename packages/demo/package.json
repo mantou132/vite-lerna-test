@@ -1,0 +1,19 @@
+{
+  "name": "@df/test",
+  "version": "0.0.6",
+  "description": "beta console ui",
+  "scripts": {
+    "build": "vite build --mode=production",
+    "build:dev": "vite build --mode=development",
+    "preview": "vite preview",
+    "start": "vite serve",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@df/gem-frame": "^0.0.6",
+    "@mantou/gem": "^1.5.0"
+  },
+  "devDependencies": {
+    "vite": "^2.3.8"
+  }
+}
